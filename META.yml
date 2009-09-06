@@ -1,0 +1,16 @@
+---
+abstract: 'Merges external application directories into your app.'
+author:
+  - 'Rodrigo de Oliveira <rodrigolive@gmail.com>'
+generated_by: 'Dist::Zilla::Plugin::MetaYAML version 1.092450'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-Features
+requires:
+  Catalyst: 5.7
+  FindBin: 0
+  Path::Class: 0
+  Test::More: 0.94
+version: 0.10
