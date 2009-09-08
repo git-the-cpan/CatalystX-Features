@@ -91,7 +91,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.10
+version 0.1011
 
 =head1 SYNOPSIS
 
@@ -133,7 +133,7 @@ Not implemented yet.
 
 =head1 AUTHORS
 
-	Rodrigo de Oliveira (rodrigolive), C<rodrigolive@gmail.com>
+    Rodrigo de Oliveira (rodrigolive), C<rodrigolive@gmail.com>
 
 =head1 LICENSE
 

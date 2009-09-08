@@ -39,7 +39,7 @@ CatalystX::Features::Plugin::I18N - Makes C::P::I18N know about features
 
 =head1 VERSION
 
-version 0.10
+version 0.1011
 
 =head1 DESCRIPTION
 

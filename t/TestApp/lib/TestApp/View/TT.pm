@@ -1,5 +1,5 @@
 package TestApp::View::TT;
-our $VERSION = '0.10';
+our $VERSION = '0.1011';
 
 
 use strict;

@@ -3,6 +3,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+README.textile
 dist.ini
 lib/CatalystX/Features.pm
 lib/CatalystX/Features/Backend.pm
@@ -38,7 +39,6 @@ t/TestApp/lib/TestApp/Controller/Root.pm
 t/TestApp/lib/TestApp/I18N/es.po
 t/TestApp/lib/TestApp/View/Mason.pm
 t/TestApp/lib/TestApp/View/TT.pm
-t/TestApp/root/favicon.ico
 t/TestApp/root/src/main.tt
 t/TestApp/root/static/main.js
 t/TestApp/testapp.conf

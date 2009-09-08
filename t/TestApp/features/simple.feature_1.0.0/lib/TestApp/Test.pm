@@ -1,5 +1,5 @@
 package TestApp::Test;
-our $VERSION = '0.10';
+our $VERSION = '0.1011';
 
 use base 'CatalystX::Features::Main';
 use Moose;

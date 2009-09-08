@@ -13,4 +13,4 @@ requires:
   FindBin: 0
   Path::Class: 0
   Test::More: 0.94
-version: 0.10
+version: 0.1011

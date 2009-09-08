@@ -65,7 +65,7 @@ CatalystX::Features::Feature - Class that represents a single feature.
 
 =head1 VERSION
 
-version 0.10
+version 0.1011
 
 =head1 SYNOPSIS
 
@@ -105,7 +105,7 @@ Not everyone want to have this object as a base class for their features. There 
 
 =head1 AUTHORS
 
-	Rodrigo de Oliveira (rodrigolive), C<rodrigolive@gmail.com>
+    Rodrigo de Oliveira (rodrigolive), C<rodrigolive@gmail.com>
 
 =head1 LICENSE
 

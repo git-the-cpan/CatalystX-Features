@@ -24,7 +24,7 @@ CatalystX::Features::Plugin::Static::Simple - Makes C::P::Static::Simple know ab
 
 =head1 VERSION
 
-version 0.10
+version 0.1011
 
 =head1 AUTHORS
 

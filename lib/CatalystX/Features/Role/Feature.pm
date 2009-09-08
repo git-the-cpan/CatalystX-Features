@@ -18,7 +18,7 @@ CatalystX::Features::Role::Feature - Role for implementing a single feature.
 
 =head1 VERSION
 
-version 0.10
+version 0.1011
 
 =head1 DESCRIPTION
 
