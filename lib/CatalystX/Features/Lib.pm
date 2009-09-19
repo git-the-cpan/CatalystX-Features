@@ -1,5 +1,5 @@
 package CatalystX::Features::Lib;
-our $VERSION = '0.1011';
+our $VERSION = '0.10';
 
 use Moose;
 
@@ -19,31 +19,30 @@ sub setup {
 
 =head1 NAME
 
-CatalystX::Features::Lib - Push /lib into @INC
+CatalystX::Features::Lib - Push your /lib into @INC
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 SYNOPSIS
 
-   use Catalyst qw/
-      CatalystX::Features
-      CatalystX::Features::Lib
-   /;
+	use Catalyst qw/
+			CatalystX::Features
+			CatalystX::Features::Lib
+		/;
 
 =head1 METHODS
 
 =head2 setup
 
-Pushes your feature C</lib> into @INC so that controllers, views, models, etc. 
-are included as part of the app.
+Pushes your feature C</lib> in @INC.
 
 =head1 TODO
 
 =over 
 
-=item * Warn when there are duplicate lib files.
+=item Warn when there are duplicate lib files.
 
 =back
 

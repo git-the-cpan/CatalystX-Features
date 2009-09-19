@@ -29,7 +29,7 @@ CatalystX::Features::Plugin::ConfigLoader - Makes ConfigLoader know about featur
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 SYNOPSIS
 

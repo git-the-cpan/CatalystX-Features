@@ -1,4 +1,6 @@
 package CatalystX::Features::View::Mason;
+our $VERSION = '0.11';
+
 
 use strict;
 use warnings;
@@ -11,7 +13,7 @@ sub new {
 
     foreach my $feature ( $app->features->list ) {
 
-        my $prefix = $app->features->config->{ $feature->name }->{mason_prefix};
+        my $prefix = $app->features->config->{ $feature->name }->{mason_prefix} || '';
 
         if ( ref $prefix eq 'ARRAY' ) {
 			my $cnt;
@@ -47,7 +49,7 @@ CatalystX::Features::View::Mason - Makes View::Mason know about features
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 SYNOPSIS
 
@@ -85,4 +87,4 @@ the same terms as Perl itself.
 
 =cut
 
-1;
+1;

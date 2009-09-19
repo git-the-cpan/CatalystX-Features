@@ -1,4 +1,6 @@
 package CatalystX::Features::View::TT;
+our $VERSION = '0.11';
+
 use strict;
 use warnings;
 use base 'Catalyst::View::TT';
@@ -14,7 +16,7 @@ sub new {
 
     foreach my $feature ( $app->features->list ) {
 
-        my $prefix = $app->features->config->{ $feature->name }->{tt_prefix};
+        my $prefix = $app->features->config->{ $feature->name }->{tt_prefix} || '';
 
         if ( ref $prefix eq 'ARRAY' ) {
             for ( @{$prefix} ) {
@@ -41,7 +43,7 @@ CatalystX::Features::View::TT - Makes View::TT handle features.
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 SYNOPSIS
 
@@ -85,4 +87,4 @@ the same terms as Perl itself.
 =cut
 
 1;
-
+

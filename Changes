@@ -1,0 +1,12 @@
+0.11  Sat, 19 Sep 2009 10:42:43 +0200
+  * Fixed: feature with no version now has topmost priority.
+  * New: skip features by putting # in front of directories.
+  * Separated tests by type.
+  * Tests now check if plugins or views are available.
+
+0.1011 Thu, 07 Sep 2009 10:45:04 +0200
+  * Fix some test errors.
+
+0.10  Thu, 06 Jun 2009 06:45:11 +0200
+  * Initial release.
+

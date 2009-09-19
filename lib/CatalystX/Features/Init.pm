@@ -7,7 +7,7 @@ CatalystX::Features::Init - Extend MyApp.pm initialization
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 SYNOPSIS
 

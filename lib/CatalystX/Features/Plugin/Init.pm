@@ -1,5 +1,5 @@
 package CatalystX::Features::Plugin::Init;
-our $VERSION = '0.1011';
+our $VERSION = '0.10';
 
 
 =head1 NAME
@@ -8,7 +8,7 @@ CatalystX::Features::Plugin::Init - Let the feature run initialization code
 
 =head1 VERSION
 
-version 0.1011
+version 0.10
 
 =head1 DESCRIPTION
 
