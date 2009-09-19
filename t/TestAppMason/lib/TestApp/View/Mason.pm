@@ -1,5 +1,5 @@
 package TestApp::View::Mason;
-our $VERSION = '0.11';
+our $VERSION = '0.11_01';
 
 use strict;
 use warnings;

@@ -9,7 +9,7 @@ WriteMakefile(
   NAME      => 'CatalystX::Features',
   AUTHOR    => 'Rodrigo\ de\ Oliveira\ \<rodrigolive\@gmail\.com\>',
   ABSTRACT  => 'Merges\ external\ application\ directories\ into\ your\ app\.',
-  VERSION   => '0.11',
+  VERSION   => '0.11_01',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {

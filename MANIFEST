@@ -13,7 +13,6 @@ lib/CatalystX/Features/Init.pm
 lib/CatalystX/Features/Lib.pm
 lib/CatalystX/Features/Plugin/ConfigLoader.pm
 lib/CatalystX/Features/Plugin/I18N.pm
-lib/CatalystX/Features/Plugin/Init.pm
 lib/CatalystX/Features/Plugin/Static/Simple.pm
 lib/CatalystX/Features/Role/Backend.pm
 lib/CatalystX/Features/Role/Feature.pm

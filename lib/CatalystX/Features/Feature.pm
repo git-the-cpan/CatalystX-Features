@@ -1,5 +1,5 @@
 package CatalystX::Features::Feature;
-our $VERSION = '0.11';
+our $VERSION = '0.11_01';
 
 use Moose;
 use Path::Class;

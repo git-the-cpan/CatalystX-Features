@@ -1,5 +1,5 @@
 package CatalystX::Features::View::TT;
-our $VERSION = '0.11';
+our $VERSION = '0.11_01';
 
 use strict;
 use warnings;

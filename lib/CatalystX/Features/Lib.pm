@@ -1,5 +1,6 @@
 package CatalystX::Features::Lib;
-our $VERSION = '0.10';
+our $VERSION = '0.11_01';
+
 
 use Moose;
 

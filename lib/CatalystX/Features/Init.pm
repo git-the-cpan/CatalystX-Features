@@ -1,4 +1,6 @@
 package CatalystX::Features::Init;
+our $VERSION = '0.11_01';
+
 use Moose;
 
 =head1 NAME
@@ -7,7 +9,7 @@ CatalystX::Features::Init - Extend MyApp.pm initialization
 
 =head1 VERSION
 
-version 0.10
+version 0.11_01
 
 =head1 SYNOPSIS
 
@@ -46,4 +48,4 @@ the same terms as Perl itself.
 
 =cut
 
-1;
+1;
