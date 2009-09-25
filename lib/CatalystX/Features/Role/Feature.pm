@@ -1,4 +1,6 @@
 package CatalystX::Features::Role::Feature;
+our $VERSION = '0.12';
+
 use Moose::Role;
 
 # attributes
@@ -18,7 +20,7 @@ CatalystX::Features::Role::Feature - Role for implementing a single feature.
 
 =head1 VERSION
 
-version 0.10
+version 0.12
 
 =head1 DESCRIPTION
 
@@ -77,4 +79,4 @@ the same terms as Perl itself.
 
 =cut 
 
-1;
+1;

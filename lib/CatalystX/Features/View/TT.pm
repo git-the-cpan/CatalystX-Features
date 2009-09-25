@@ -1,5 +1,5 @@
 package CatalystX::Features::View::TT;
-our $VERSION = '0.11_01';
+our $VERSION = '0.12';
 
 use strict;
 use warnings;
@@ -43,7 +43,7 @@ CatalystX::Features::View::TT - Makes View::TT handle features.
 
 =head1 VERSION
 
-version 0.10
+version 0.12
 
 =head1 SYNOPSIS
 
@@ -87,4 +87,3 @@ the same terms as Perl itself.
 =cut
 
 1;
-

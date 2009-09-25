@@ -9,8 +9,10 @@ meta-spec:
   version: 1.4
 name: CatalystX-Features
 requires:
-  Catalyst: 5.7
+  Carp: 0
+  Catalyst: 5.7015
   FindBin: 0
+  Moose: 0
   Path::Class: 0
-  Test::More: 0.94
-version: 0.11_01
+  Test::More: 0.9
+version: 0.12

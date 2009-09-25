@@ -1,4 +1,6 @@
 package CatalystX::Features::Plugin::ConfigLoader;
+our $VERSION = '0.12';
+
 use warnings;
 use strict;
 use Carp;
@@ -29,7 +31,7 @@ CatalystX::Features::Plugin::ConfigLoader - Makes ConfigLoader know about featur
 
 =head1 VERSION
 
-version 0.10
+version 0.12
 
 =head1 SYNOPSIS
 
@@ -63,4 +65,3 @@ the same terms as Perl itself.
 =cut
 
 1;
-

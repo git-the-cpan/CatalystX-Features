@@ -1,5 +1,5 @@
 package CatalystX::Features::Backend;
-our $VERSION = '0.11_01';
+our $VERSION = '0.12';
 
 use Moose;
 use Path::Class;
@@ -124,7 +124,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.11
+version 0.12
 
 =head1 SYNOPSIS
 
@@ -178,4 +178,3 @@ This library is free software. You can redistribute it and/or modify it under
 the same terms as Perl itself.
 
 =cut
-
