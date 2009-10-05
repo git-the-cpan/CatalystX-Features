@@ -1,3 +1,6 @@
+0.13  Mon, 05 Oct 2009 10:00:43 +0100
+  * New: path_to files in features
+
 0.12  Fri, 25 Sep 2009 08:00:43 +0100
   * New: skip features by putting # in front of directories.
 

@@ -1,5 +1,5 @@
 package CatalystX::Features::Feature;
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 use Moose;
 use Path::Class;
@@ -67,7 +67,7 @@ CatalystX::Features::Feature - Class that represents a single feature.
 
 =head1 VERSION
 
-version 0.12
+version 0.13
 
 =head1 SYNOPSIS
 
