@@ -1,5 +1,5 @@
 package CatalystX::Features::Plugin::I18N;
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 use strict;
 use warnings;
@@ -41,7 +41,7 @@ CatalystX::Features::Plugin::I18N - Makes C::P::I18N know about features
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 DESCRIPTION
 

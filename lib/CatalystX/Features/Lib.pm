@@ -1,5 +1,5 @@
 package CatalystX::Features::Lib;
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 
 use Moose;
@@ -24,7 +24,7 @@ CatalystX::Features::Lib - Push your /lib into @INC
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 

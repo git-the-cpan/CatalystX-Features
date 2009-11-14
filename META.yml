@@ -15,4 +15,4 @@ requires:
   Moose: 0
   Path::Class: 0
   Test::More: 0.9
-version: 0.13
+version: 0.14

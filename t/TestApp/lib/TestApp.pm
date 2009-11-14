@@ -1,5 +1,5 @@
 package TestApp;
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 use strict;
 use warnings;
@@ -17,8 +17,7 @@ use Catalyst::Runtime 5.70;
 use base qw/Catalyst/;
 use Catalyst qw/+CatalystX::Features
                 +CatalystX::Features::Lib
-                +CatalystX::Features::Plugin::ConfigLoader
-                +CatalystX::Features::Plugin::Static::Simple/;
+                +CatalystX::Features::Plugin::ConfigLoader/;
 
 __PACKAGE__->config( name => 'TestApp' );
 

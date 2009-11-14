@@ -1,5 +1,5 @@
 package CatalystX::Features::Plugin::Static::Simple;
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 use warnings;
 use strict;
@@ -26,7 +26,7 @@ CatalystX::Features::Plugin::Static::Simple - Makes C::P::Static::Simple know ab
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 AUTHORS
 
