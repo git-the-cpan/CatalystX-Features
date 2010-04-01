@@ -1,15 +1,14 @@
 package CatalystX::Features::Plugin::Static::Simple;
-our $VERSION = '0.14';
-
-use warnings;
-use strict;
+$CatalystX::Features::Plugin::Static::Simple::VERSION = '0.15';
+use Moose::Role;
 use Carp;
-use parent qw/Catalyst::Plugin::Static::Simple/; 
-use MRO::Compat;
 
-sub setup {
+with 'Catalyst::Plugin::Static::Simple';
+
+use namespace::autoclean;
+
+after setup_finalize => sub {
     my $c = shift;
-    $c->next::method(@_);
 
     my $config = $c->config;
 
@@ -18,7 +17,7 @@ sub setup {
         push( @{ $config->{static}->{include_path} }, $feature->root );
     }
     return $c;
-}
+};
 
 =head1 NAME
 
@@ -26,7 +25,7 @@ CatalystX::Features::Plugin::Static::Simple - Makes C::P::Static::Simple know ab
 
 =head1 VERSION
 
-version 0.14
+version 0.15
 
 =head1 AUTHORS
 

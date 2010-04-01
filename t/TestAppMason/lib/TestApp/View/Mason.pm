@@ -1,6 +1,4 @@
 package TestApp::View::Mason;
-our $VERSION = '0.14';
-
 use strict;
 use warnings;
 use base 'CatalystX::Features::View::Mason';

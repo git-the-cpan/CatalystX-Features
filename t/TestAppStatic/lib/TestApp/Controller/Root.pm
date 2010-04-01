@@ -1,10 +1,8 @@
 package TestApp::Controller::Root;
-our $VERSION = '0.14';
-
 
 use strict;
 use warnings;
-use parent 'Catalyst::Controller';
+use base 'Catalyst::Controller';
 
 #
 # Sets the actions in this controller to be registered with no prefix

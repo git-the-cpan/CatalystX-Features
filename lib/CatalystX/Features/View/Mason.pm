@@ -1,6 +1,5 @@
 package CatalystX::Features::View::Mason;
-our $VERSION = '0.14';
-
+$CatalystX::Features::View::Mason::VERSION = '0.15';
 
 use strict;
 use warnings;
@@ -49,7 +48,7 @@ CatalystX::Features::View::Mason - Makes View::Mason know about features
 
 =head1 VERSION
 
-version 0.14
+version 0.15
 
 =head1 SYNOPSIS
 

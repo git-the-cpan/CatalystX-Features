@@ -1,6 +1,4 @@
 package TestApp::View::TT;
-our $VERSION = '0.14';
-
 
 use strict;
 use base 'CatalystX::Features::View::TT';

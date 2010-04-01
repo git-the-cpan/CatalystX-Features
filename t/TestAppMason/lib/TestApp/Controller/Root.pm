@@ -1,10 +1,8 @@
 package TestApp::Controller::Root;
-our $VERSION = '0.14';
-
 
 use strict;
 use warnings;
-use parent 'Catalyst::Controller';
+use base 'Catalyst::Controller';
 
 __PACKAGE__->config->{namespace} = '';
 

@@ -1,6 +1,5 @@
 package CatalystX::Features::Backend;
-our $VERSION = '0.14';
-
+$CatalystX::Features::Backend::VERSION = '0.15';
 use Moose;
 use Path::Class;
 use Carp;
@@ -129,7 +128,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.14
+version 0.15
 
 =head1 SYNOPSIS
 

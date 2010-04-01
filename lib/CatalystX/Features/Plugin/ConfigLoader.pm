@@ -1,6 +1,5 @@
 package CatalystX::Features::Plugin::ConfigLoader;
-our $VERSION = '0.14';
-
+$CatalystX::Features::Plugin::ConfigLoader::VERSION = '0.15';
 use warnings;
 use strict;
 use Carp;
@@ -31,7 +30,7 @@ CatalystX::Features::Plugin::ConfigLoader - Makes ConfigLoader know about featur
 
 =head1 VERSION
 
-version 0.14
+version 0.15
 
 =head1 SYNOPSIS
 
