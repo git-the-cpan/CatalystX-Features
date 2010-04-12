@@ -1,5 +1,5 @@
 package CatalystX::Features;
-$CatalystX::Features::VERSION = '0.15';
+$CatalystX::Features::VERSION = '0.16';
 use warnings;
 use strict;
 use Carp;
@@ -104,7 +104,7 @@ CatalystX::Features - Merges different application directories into your app.
 
 =head1 VERSION
 
-version 0.15
+version 0.16
 
 =head1 SYNOPSIS
 

@@ -21,15 +21,16 @@ my %WriteMakefileArgs = (
                        'BUILD_REQUIRES' => {},
                        'ABSTRACT' => 'Merges external application directories into your app.',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.15',
+                       'VERSION' => '0.16',
                        'PREREQ_PM' => {
-                                        'Test::More' => '0.9',
                                         'Catalyst::Plugin::Static::Simple' => '0.27',
                                         'FindBin' => '0',
+                                        'Catalyst::Plugin::ConfigLoader' => '0.25',
+                                        'Carp' => '0',
+                                        'Test::More' => '0.9',
                                         'Catalyst' => '5.80015',
                                         'Path::Class' => '0',
-                                        'Moose' => '0',
-                                        'Carp' => '0'
+                                        'Moose' => '0'
                                       },
                        'LICENSE' => 'perl'
                      );
