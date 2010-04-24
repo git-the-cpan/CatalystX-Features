@@ -1,10 +1,8 @@
 package CatalystX::Features;
-$CatalystX::Features::VERSION = '0.17';
-use warnings;
+$CatalystX::Features::VERSION = '0.18';
 use strict;
+use warnings;
 use Carp;
-use base qw/Class::Accessor::Fast Class::Data::Inheritable/;
-use MRO::Compat;
 use Path::Class;
 use File::Spec;
 use CatalystX::Features::Backend;
@@ -103,7 +101,7 @@ CatalystX::Features - Merges different application directories into your app.
 
 =head1 VERSION
 
-version 0.17
+version 0.18
 
 =head1 SYNOPSIS
 
