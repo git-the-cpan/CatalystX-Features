@@ -1,11 +1,14 @@
 package CatalystX::Features;
-$CatalystX::Features::VERSION = '0.18';
+$CatalystX::Features::VERSION = '0.19';
 use strict;
 use warnings;
 use Carp;
+use base qw/Class::Accessor::Fast Class::Data::Inheritable/;
+use MRO::Compat;
+use Class::Inspector;
+use Class::MOP;
 use Path::Class;
 use File::Spec;
-use CatalystX::Features::Backend;
 
 our $config_key = 'CatalystX::Features';
 
@@ -35,8 +38,10 @@ sub features_setup {
         $config->{home} ||=
           [ Path::Class::dir( $c->config->{home} . "/features" )->stringify ];
 
-        my $backend_class = $config->{backend}
+        my $backend_class = $config->{backend_class}
           || 'CatalystX::Features::Backend';
+
+        Class::MOP::load_class($backend_class);
 
         my $backend = $backend_class->new(
             {
@@ -101,7 +106,7 @@ CatalystX::Features - Merges different application directories into your app.
 
 =head1 VERSION
 
-version 0.18
+version 0.19
 
 =head1 SYNOPSIS
 

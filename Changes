@@ -1,3 +1,6 @@
+0.19 Wed Aug 11 10:15:36 CEST 2010
+  * fixed backend_class and feature_class config options (rbuels)
+
 0.18 Sat Apr 24 10:26:06 CEST 2010
   * More dependencies for failing tests
 
