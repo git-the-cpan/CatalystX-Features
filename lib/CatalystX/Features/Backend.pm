@@ -1,5 +1,7 @@
 package CatalystX::Features::Backend;
-$CatalystX::Features::Backend::VERSION = '0.20';
+{
+  $CatalystX::Features::Backend::VERSION = '0.21';
+}
 use Class::MOP ();
 use Moose;
 use Path::Class;
@@ -18,6 +20,10 @@ with 'CatalystX::Features::Role::Backend';
 sub init {
     my $self = shift;
     return if $ENV{CATALYSTX_NO_FEATURES};
+    my $disabled = $CatalystX::Features::DISABLED;
+    $disabled ||= [];
+    carp '$CatalystX::Features::DISABLED must be an ARRAYREF' if ref $disabled ne 'ARRAY';
+    $disabled = +{  map { $_ => 1 } @$disabled };
     for my $home ( @{ $self->include_path || [] } ) {
         my @features = $self->_find_features($home);
         foreach my $feature_path (@features) {
@@ -35,9 +41,9 @@ sub init {
                     backend => $self,
                 }
             );
-
             $self->_push_feature($feature)
-                if $feature->id !~ m/^#/;
+                if $feature->id !~ m/^#/
+                && ! exists $disabled->{ $feature->name };
         }
     }
 }
@@ -129,7 +135,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 SYNOPSIS
 

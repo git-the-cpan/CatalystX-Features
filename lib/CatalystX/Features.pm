@@ -1,5 +1,7 @@
 package CatalystX::Features;
-$CatalystX::Features::VERSION = '0.20';
+{
+  $CatalystX::Features::VERSION = '0.21';
+}
 use strict;
 use warnings;
 use Carp;
@@ -106,7 +108,7 @@ CatalystX::Features - Merges different application directories into your app.
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 SYNOPSIS
 
@@ -160,7 +162,7 @@ If a higher version of a feature is found, that's the one to be used, the rest i
 
 =back 
 
-=head2 Ignoring features
+=head2 Disabling features
 
 If you need a feature to be ignored, append a hash C<#> sign in front of the directory name:
 
@@ -173,6 +175,17 @@ If you need a feature to be ignored, append a hash C<#> sign in front of the dir
 	/MyApp/features/#FunnyFeature-1.0
 
 That way the feature folder will be ignored during the initialization phase.
+
+You can also disable by setting the C<$CatalystX::Features::DISABLED> variable early
+in your code:
+
+    use Catalyst::Runtime 5.70;
+
+    BEGIN {
+        $CatalystX::Features::DISABLED = [ qw/simple.feature anotherone/ ];
+    }
+    
+    # ...
 
 =head1 CONFIGURATION
 

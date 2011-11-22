@@ -1,5 +1,7 @@
 package CatalystX::Features::Plugin::Static::Simple;
-$CatalystX::Features::Plugin::Static::Simple::VERSION = '0.20';
+{
+  $CatalystX::Features::Plugin::Static::Simple::VERSION = '0.21';
+}
 use Moose::Role;
 use Carp;
 
@@ -25,7 +27,7 @@ CatalystX::Features::Plugin::Static::Simple - Makes C::P::Static::Simple know ab
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 AUTHORS
 
