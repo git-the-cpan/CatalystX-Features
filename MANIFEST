@@ -22,6 +22,7 @@ t/alternate_classes.t
 t/basic.t
 t/disabled.t
 t/lib/TestApp/Makefile.PL
+t/lib/TestApp/features/FEATURE/root/ff.js
 t/lib/TestApp/features/FEATURE/simple.feature.conf
 t/lib/TestApp/features/a_1/simple.feature.conf
 t/lib/TestApp/features/another-1.0/simple.feature.conf

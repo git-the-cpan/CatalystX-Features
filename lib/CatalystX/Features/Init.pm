@@ -1,6 +1,6 @@
 package CatalystX::Features::Init;
 {
-  $CatalystX::Features::Init::VERSION = '0.21';
+  $CatalystX::Features::Init::VERSION = '0.22';
 }
 use Moose;
 
@@ -10,7 +10,7 @@ CatalystX::Features::Init - Extend MyApp.pm initialization
 
 =head1 VERSION
 
-version 0.21
+version 0.22
 
 =head1 SYNOPSIS
 

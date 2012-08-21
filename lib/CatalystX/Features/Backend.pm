@@ -1,6 +1,6 @@
 package CatalystX::Features::Backend;
 {
-  $CatalystX::Features::Backend::VERSION = '0.21';
+  $CatalystX::Features::Backend::VERSION = '0.22';
 }
 use Class::MOP ();
 use Moose;
@@ -63,7 +63,7 @@ sub find {
 		return $self->_find_cache->{$file}
 			if exists $self->_find_cache->{$file};
         for my $feature ( $self->_array ) {
-			if( Path::Class::dir( $feature->path )->contains($file) ) {
+			if( -e Path::Class::file( $feature->path, $file ) ) {
 				$self->_find_cache->{$file} = $feature;
 				return $feature;
 			}
@@ -135,7 +135,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.21
+version 0.22
 
 =head1 SYNOPSIS
 

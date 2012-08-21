@@ -1,6 +1,6 @@
 package CatalystX::Features;
 {
-  $CatalystX::Features::VERSION = '0.21';
+  $CatalystX::Features::VERSION = '0.22';
 }
 use strict;
 use warnings;
@@ -16,8 +16,9 @@ our $config_key = 'CatalystX::Features';
 
 sub path_to {
     my $c = shift;
-    my ($package, $file, $line ) = caller;
+    my ($cpackage, $cfile, $cline ) = caller;
     my @args = @_;
+    my $file = Path::Class::file( @args );
     if( my $backend = $c->features ) {
         my ($feature, $path);
         eval {
@@ -25,7 +26,7 @@ sub path_to {
             $path = File::Spec->catdir( $feature->path, @args ); 
         };
         return $path if $path and !$@;
-    }
+    } 
     my $path = $c->next::method( @args );
     return $path;
 }
@@ -108,7 +109,7 @@ CatalystX::Features - Merges different application directories into your app.
 
 =head1 VERSION
 
-version 0.21
+version 0.22
 
 =head1 SYNOPSIS
 
