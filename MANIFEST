@@ -5,6 +5,7 @@ META.yml
 Makefile.PL
 README
 README.textile
+cxf.tar.gz
 dist.ini
 lib/CatalystX/Features.pm
 lib/CatalystX/Features/Backend.pm

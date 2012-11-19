@@ -1,6 +1,6 @@
 package CatalystX::Features::Backend;
 {
-  $CatalystX::Features::Backend::VERSION = '0.23';
+  $CatalystX::Features::Backend::VERSION = '0.24';
 }
 use Class::MOP ();
 use Moose;
@@ -135,7 +135,7 @@ CatalystX::Features::Backend - All the dirty work is done here
 
 =head1 VERSION
 
-version 0.23
+version 0.24
 
 =head1 SYNOPSIS
 

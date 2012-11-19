@@ -9,32 +9,32 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Merges external application directories into your app.',
-  'AUTHOR' => 'Rodrigo de Oliveira <rodrigolive@gmail.com>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "Merges external application directories into your app.",
+  "AUTHOR" => "Rodrigo de Oliveira <rodrigolive\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'CatalystX-Features',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'CatalystX::Features',
-  'PREREQ_PM' => {
-    'Carp' => '0',
-    'Catalyst' => '5.80015',
-    'Catalyst::Action::RenderView' => '0',
-    'Catalyst::Plugin::ConfigLoader' => '0.25',
-    'Catalyst::Plugin::Static::Simple' => '0.27',
-    'Class::Inspector' => '0',
-    'Config::General' => '0',
-    'FindBin' => '0',
-    'Moose' => '0',
-    'Path::Class' => '0',
-    'Test::More' => '0.9'
+  "DISTNAME" => "CatalystX-Features",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "CatalystX::Features",
+  "PREREQ_PM" => {
+    "Carp" => 0,
+    "Catalyst" => "5.80015",
+    "Catalyst::Action::RenderView" => 0,
+    "Catalyst::Plugin::ConfigLoader" => "0.25",
+    "Catalyst::Plugin::Static::Simple" => "0.27",
+    "Class::Inspector" => 0,
+    "Config::General" => 0,
+    "FindBin" => 0,
+    "Moose" => 0,
+    "Path::Class" => 0,
+    "Test::More" => "0.9"
   },
-  'VERSION' => '0.23',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.24",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
