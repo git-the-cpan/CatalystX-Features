@@ -1,6 +1,6 @@
 package CatalystX::Features::Role::Feature;
 {
-  $CatalystX::Features::Role::Feature::VERSION = '0.24';
+  $CatalystX::Features::Role::Feature::VERSION = '0.25';
 }
 use Moose::Role;
 
@@ -21,7 +21,7 @@ CatalystX::Features::Role::Feature - Role for implementing a single feature.
 
 =head1 VERSION
 
-version 0.24
+version 0.25
 
 =head1 DESCRIPTION
 

@@ -1,6 +1,6 @@
 package CatalystX::Features::Role::Backend;
 {
-  $CatalystX::Features::Role::Backend::VERSION = '0.24';
+  $CatalystX::Features::Role::Backend::VERSION = '0.25';
 }
 
 use Moose::Role;
@@ -16,7 +16,7 @@ CatalystX::Features::Role::Backend - Role for implementing a backend.
 
 =head1 VERSION
 
-version 0.24
+version 0.25
 
 =head1 DESCRIPTION
 
