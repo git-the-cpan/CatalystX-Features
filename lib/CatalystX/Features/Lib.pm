@@ -1,8 +1,5 @@
 package CatalystX::Features::Lib;
-{
-  $CatalystX::Features::Lib::VERSION = '0.25';
-}
-
+$CatalystX::Features::Lib::VERSION = '0.26';
 use Moose;
 
 sub setup {
@@ -14,18 +11,18 @@ sub setup {
 
     foreach my $feature ( $c->features->list ) {
         # change INC
-        push @INC, $feature->lib;
+        unshift @INC, $feature->lib;
 	}
 
 }
 
 =head1 NAME
 
-CatalystX::Features::Lib - Push your /lib into @INC
+CatalystX::Features::Lib - Unshift your /lib into @INC
 
 =head1 VERSION
 
-version 0.25
+version 0.26
 
 =head1 SYNOPSIS
 
@@ -38,7 +35,7 @@ version 0.25
 
 =head2 setup
 
-Pushes your feature C</lib> in @INC.
+Unshifts your feature C</lib> in @INC.
 
 =head1 TODO
 

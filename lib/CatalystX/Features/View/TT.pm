@@ -1,7 +1,5 @@
 package CatalystX::Features::View::TT;
-{
-  $CatalystX::Features::View::TT::VERSION = '0.25';
-}
+$CatalystX::Features::View::TT::VERSION = '0.26';
 use strict;
 use warnings;
 use base 'Catalyst::View::TT';
@@ -44,7 +42,7 @@ CatalystX::Features::View::TT - Makes View::TT handle features.
 
 =head1 VERSION
 
-version 0.25
+version 0.26
 
 =head1 SYNOPSIS
 
